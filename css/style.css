@@ -1,0 +1,106 @@
+body{
+    background: rgba(54, 151, 211, 0.805);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    width: 100%;
+
+}
+ header nav {
+    /* sirve para ajustar las columnas o contenidos en dos 2*/
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: blue;
+ }
+
+ header nav ul {
+     display: flex;
+
+ }
+
+ header nav li{
+    margin: 5px 10px;
+    list-style: none;
+ }
+
+  header nav #logo a img{
+    width: 200px;
+
+  }
+
+  nav ul li a{
+      color:rgb(61, 80, 223);
+      font-size: 20px;
+      text-decoration: none;
+      padding: 8px 12px;
+      transition: .5s;
+      border-bottom: 1px solid transparent;
+      border-top: 1px solid transparent
+      ;
+  }
+
+  header #hero{
+      width: 100%;
+      position: relative;
+
+  }
+  header #hero h1{
+      position: absolute;
+      top: 60%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      background: rgba(75, 93, 234, 0.453);
+      font-size:  60px;
+      padding: 20px 0;
+    
+    }
+  header #hero img{
+      width: 100%;
+  }
+
+  nav ul li a:hover{
+      background: rgb(95, 12, 190);
+      color: black;
+  } 
+
+  /* END HEADER*/
+
+  /* START MAIN*/
+
+  main{
+    background: rgb(0, 0, 255);
+    width: 100%;
+    
+  }
+
+  main #welcome .row{
+      background: rgb(0, 149, 255);
+      width: 100%;
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  main #welcome .row #conttext{
+    width:  40%
+    padding: 150px 0;
+
+  }
+
+  main #welcome .row #contImg{
+    width: 40%
+    padding: 50px 0;
+
+  }
+    
+  main #welcome .row #contImg img{
+    width:  100%
+    padding: 500px ;
+
+  }
